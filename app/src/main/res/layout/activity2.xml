@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.estruch18.proyectorepaso.Activity2"
+    android:id="@+id/relativeLayout"
+    android:background="#ff54b1ff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tv_nombre"
+        android:text="@string/nombre"
+        android:layout_marginTop="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et_nombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tv_nombre"
+        android:layout_centerHorizontal="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quieres mostrar una notificación?"
+        android:id="@+id/sw_Notificacion"
+        android:checked="false"
+        android:layout_below="@+id/et_nombre"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Continuar"
+        android:onClick="accionBtnContinuar"
+        android:text="@string/continuar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_Provincias"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/sw_Notificacion"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="175dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_Pueblos"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="165dp"
+        android:layout_alignTop="@+id/sp_Provincias"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

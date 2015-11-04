@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="provincias">
+        <item>Albacete</item>
+        <item>Barcelona</item>
+        <item>Alicante</item>
+        <item>Almeria</item>
+        <item>Asturias</item>
+        <item>Islas Baleares</item>
+    </string-array>
+
+    <string-array name="localidades_almeria">
+        <item>Abla</item>
+        <item>Abrucena</item>
+        <item>Adra</item>
+        <item>Albánchez</item>
+        <item>Alboloduy</item>
+        <item>Albox</item>
+        <item>Alcolea</item>
+        <item>Alcóntar</item>
+        <item>Alcudía de Montegaud</item>
+        <item>Alhabia</item>
+        <item>Alhamia de Almería</item>
+        <item>Alicún</item>
+        <item>Almería</item>
+        <item>Almócita</item>
+        <item>Alsodux</item>
+        <item>Antas</item>
+        <item>Arboleas</item>
+        <item>Almuña de Almanzora</item>
+        <item>Bacares</item>
+        <item>Bayárcal</item>
+        <item>Bayarque</item>
+        <item>Bédar</item>
+        <item>Benahadux</item>
+        <item>Benitagla</item>
+        <item>Benizalón</item>
+        <item>Bentarique</item>
+        <item>Berja</item>
+        <item>Canjáyar</item>
+        <item>Cantoria</item>
+        <item>Carboneras</item>
+        <item>Castro de Filabres</item>
+        <item>Chercos</item>
+        <item>Chirivel</item>
+        <item>Cóbdar</item>
+        <item>Cuevas de Almanzora</item>
+        <item>Dalías</item>
+        <item>El Ejido</item>
+        <item>Enix</item>
+        <item>Felix</item>
+        <item>Fines</item>
+        <item>Fiñana</item>
+        <item>Fondón</item>
+        <item>Gádor</item>
+        <item>Los Gallardos</item>
+        <item>Garrucha</item>
+        <item>Gérgal</item>
+        <item>Huécija</item>
+        <item>Huércal de Almería</item>
+        <item>Huércal-Overa</item>
+        <item>Illar</item>
+        <item>Instinción</item>
+        <item>Laroya</item>
+        <item>Laujar de Andarax</item>
+        <item>Líjar</item>
+        <item>Lubrín</item>
+        <item>Lucainena de las Torres</item>
+        <item>Lúcar</item>
+        <item>Macael</item>
+        <item>María</item>
+        <item>Mojácar</item>
+        <item>La Mojonera</item>
+        <item>Nacimiento</item>
+        <item>Níjar</item>
+        <item>Ohanes</item>
+        <item>Olula de Castro</item>
+        <item>Olula del Río</item>
+        <item>Oria</item>
+        <item>Padules</item>
+        <item>Partaloa</item>
+        <item>Paterna del Río</item>
+        <item>Pechina</item>
+        <item>Pulpí</item>
+        <item>Purchena</item>
+        <item>Rágol</item>
+        <item>Rioja</item>
+        <item>Roquetas de Mar</item>
+        <item>Santa Cruz de Marchena</item>
+        <item>Santa Fe de Mondújar</item>
+        <item>Senés</item>
+        <item>Serón</item>
+        <item>Sierro</item>
+        <item>Somontín</item>
+        <item>Sorbas</item>
+        <item>Suflí</item>
+        <item>Tabernas</item>
+        <item>Taberno</item>
+        <item>Tahal</item>
+        <item>Terque</item>
+        <item>Tíjola</item>
+        <item>Las Tres Villas</item>
+        <item>Turre</item>
+        <item>Turrillas</item>
+        <item>Uleila del Campo</item>
+        <item>Urrácal</item>
+        <item>Velefique</item>
+        <item>Vélez-Blanco</item>
+        <item>Vélez-Rubio</item>
+        <item>Vera</item>
+        <item>Viator</item>
+        <item>Vícar</item>
+        <item>Zurgena</item>
+    </string-array>
+    <string-array name="localidades_alicante">
+        <item>Adsubia</item>
+        <item>Agost</item>
+        <item>Agres</item>
+        <item>Aigües</item>
+        <item>Albatera</item>
+        <item>Alcalalí</item>
+        <item>Alcocer de Planes</item>
+        <item>Alcoleja</item>
+        <item>Alcoy</item>
+        <item>Alfafara</item>
+        <item>Alfàs del Pi, l\'</item>
+        <item>Algorfa</item>
+        <item>Algueña</item>
+        <item>Alicante</item>
+        <item>Almoradí</item>
+        <item>Almudaina</item>
+        <item>Alqueria d\'Asnar, l\'</item>
+        <item>Altea</item>
+        <item>Aspe</item>
+        <item>Balones</item>
+        <item>Banyeres de Mariola</item>
+        <item>Benasau</item>
+        <item>Beneixama</item>
+        <item>Benejúzar</item>
+        <item>Benferri</item>
+        <item>Beniarbeig</item>
+        <item>Beniardá</item>
+        <item>Beniarrés</item>
+        <item>Benidoleig</item>
+        <item>Benidorm</item>
+        <item>Benifallim</item>
+        <item>Benifato</item>
+        <item>Benigembla</item>
+        <item>Benijófar</item>
+        <item>Benilloba</item>
+        <item>Benillup</item>
+        <item>Benimantell</item>
+        <item>Benimarfull</item>
+        <item>Benimassot</item>
+        <item>Benimeli</item>
+        <item>Benissa</item>
+        <item>Benitachell</item>
+        <item>Biar</item>
+        <item>Bigastro</item>
+        <item>Bolulla</item>
+        <item>Busot</item>
+        <item>Callosa d\'En Sarrià</item>
+        <item>Callosa de Segura</item>
+        <item>Calp</item>
+        <item>Campello, el</item>
+        <item>Campo de Mirra</item>
+        <item>Cañada</item>
+        <item>Castalla</item>
+        <item>Castell de Castells</item>
+        <item>Castell de Guadalest, el</item>
+        <item>Catral</item>
+        <item>Cocentaina</item>
+        <item>Confrides</item>
+        <item>Cox</item>
+        <item>Crevillent</item>
+        <item>Daya Nueva</item>
+        <item>Daya Vieja</item>
+        <item>Dénia</item>
+        <item>Dolores</item>
+        <item>Elche</item>
+        <item>Elda</item>
+        <item>Facheca</item>
+        <item>Famorca</item>
+        <item>Finestrat</item>
+        <item>Fondó de les Neus, el</item>
+        <item>Formentera del Segura</item>
+        <item>Gaianes</item>
+        <item>Gata de Gorgos</item>
+        <item>Gorga</item>
+        <item>Granja de Rocamora</item>
+        <item>Guardamar del Segura</item>
+        <item>Hondón de los Frailes</item>
+        <item>Ibi</item>
+        <item>Jacarilla</item>
+        <item>Jávea</item>
+        <item>Jijona</item>
+        <item>Llíber</item>
+        <item>Lorcha</item>
+        <item>Millena</item>
+        <item>Monforte del Cid</item>
+        <item>Monóvar</item>
+        <item>Montesinos, Los</item>
+        <item>Murla</item>
+        <item>Muro de Alcoy</item>
+        <item>Mutxamel</item>
+        <item>Novelda</item>
+        <item>Nucia, la</item>
+        <item>Ondara</item>
+        <item>Onil</item>
+        <item>Orba</item>
+        <item>Orihuela</item>
+        <item>Orxeta</item>
+        <item>Parcent</item>
+        <item>Pedreguer</item>
+        <item>Pego</item>
+        <item>Penàguila</item>
+        <item>Petrer</item>
+        <item>Pilar de la Horadada</item>
+        <item>Pinós, el</item>
+        <item>Planes</item>
+        <item>Poblets, els</item>
+        <item>Polop</item>
+        <item>Quatretondeta</item>
+        <item>Rafal</item>
+        <item>Ràfol d\'Almúnia, El</item>
+        <item>Redován</item>
+        <item>Relleu</item>
+        <item>Rojales</item>
+        <item>Romana, la</item>
+        <item>Sagra</item>
+        <item>Salinas</item>
+        <item>San Fulgencio</item>
+        <item>San Isidro</item>
+        <item>San Miguel de Salinas</item>
+        <item>San Vicente del Raspeig</item>
+        <item>Sanet y Negrals</item>
+        <item>Sant Joan d\'Alacant</item>
+        <item>Santa Pola</item>
+        <item>Sax</item>
+        <item>Sella</item>
+        <item>Senija</item>
+        <item>Tàrbena</item>
+        <item>Teulada</item>
+        <item>Tibi</item>
+        <item>Tollos</item>
+        <item>Tormos</item>
+        <item>Torremanzanas</item>
+        <item>Torrevieja</item>
+        <item>Vall d\'Alcalà, la</item>
+        <item>Vall d\'Ebo, la</item>
+        <item>Vall de Gallinera</item>
+        <item>Vall de Laguar, la</item>
+        <item>Verger, el</item>
+        <item>Villajoyosa</item>
+        <item>Villena</item>
+        <item>Xaló</item>
+    </string-array>
+    <string-array name="localidades_albacete">
+        <item>Abengibre</item>
+        <item>Alatoz</item>
+        <item>Albacete</item>
+        <item>Albatana</item>
+        <item>Alborea</item>
+        <item>Alcadozo</item>
+        <item>Alcalá del Júcar</item>
+        <item>Alcaraz</item>
+        <item>Almansa</item>
+        <item>Alpera</item>
+        <item>Ayna</item>
+        <item>Balazote</item>
+        <item>Ballestero, El</item>
+        <item>Balsa de Ves</item>
+        <item>Barrax</item>
+        <item>Bienservida</item>
+        <item>Bogarra</item>
+        <item>Bonete</item>
+        <item>Bonillo, El</item>
+        <item>Carcelén</item>
+        <item>Casas de Juan Núñez</item>
+        <item>Casas de Lázaro</item>
+        <item>Casas de Ves</item>
+        <item>Casas-Ibáñez</item>
+        <item>Caudete</item>
+        <item>Cenizate</item>
+        <item>Chinchilla de Monte-Aragón</item>
+        <item>Corral-Rubio</item>
+        <item>Cotillas</item>
+        <item>Elche de la Sierra</item>
+        <item>Férez</item>
+        <item>Fuensanta</item>
+        <item>Fuente-Álamo</item>
+        <item>Fuentealbilla</item>
+        <item>Gineta, La</item>
+        <item>Golosalvo</item>
+        <item>Hellín</item>
+        <item>Herrera, La</item>
+        <item>Higueruela</item>
+        <item>Hoya-Gonzalo</item>
+        <item>Jorquera</item>
+        <item>Letur</item>
+        <item>Lezuza</item>
+        <item>Liétor</item>
+        <item>Madrigueras</item>
+        <item>Mahora</item>
+        <item>Masegoso</item>
+        <item>Minaya</item>
+        <item>Molinicos</item>
+        <item>Montalvos</item>
+        <item>Montealegre del Castillo</item>
+        <item>Motilleja</item>
+        <item>Munera</item>
+        <item>Navas de Jorquera</item>
+        <item>Nerpio</item>
+        <item>Ontur</item>
+        <item>Ossa de Montiel</item>
+        <item>Paterna del Madera</item>
+        <item>Peñas de San Pedro</item>
+        <item>Peñascosa</item>
+        <item>Pétrola</item>
+        <item>Povedilla</item>
+        <item>Pozo Cañada</item>
+        <item>Pozo-Lorente</item>
+        <item>Pozohondo</item>
+        <item>Pozuelo</item>
+        <item>Recueja, La</item>
+        <item>Riópar</item>
+        <item>Robledo</item>
+        <item>Roda, La</item>
+        <item>Salobre</item>
+        <item>San Pedro</item>
+        <item>Socovos</item>
+        <item>Tarazona de la Mancha</item>
+        <item>Tobarra</item>
+        <item>Valdeganga</item>
+        <item>Vianos</item>
+        <item>Villa de Ves</item>
+        <item>Villalgordo del Júcar</item>
+        <item>Villamalea</item>
+        <item>Villapalacios</item>
+        <item>Villarrobledo</item>
+        <item>Villatoya</item>
+        <item>Villavaliente</item>
+        <item>Villaverde de Guadalimar</item>
+        <item>Viveros</item>
+        <item>Yeste</item>
+    </string-array>
+    <string-array name="localidades_asturias">
+        <item>Allande</item>
+        <item>Aller</item>
+        <item>Amieva</item>
+        <item>Avilés</item>
+        <item>Belmonte de Miranda</item>
+        <item>Bimenes</item>
+        <item>Boal</item>
+        <item>Cabrales</item>
+        <item>Cabranes</item>
+        <item>Candamo</item>
+        <item>Cangas de Onís</item>
+        <item>Cangas del Narcea</item>
+        <item>Caravia</item>
+        <item>Carreño</item>
+        <item>Caso</item>
+        <item>Castrillón</item>
+        <item>Castropol</item>
+        <item>Coaña</item>
+        <item>Colunga</item>
+        <item>Corvera de Asturias</item>
+        <item>Cudillero</item>
+        <item>Degaña</item>
+        <item>Franco, El</item>
+        <item>Gijón</item>
+        <item>Gozón</item>
+        <item>Grado</item>
+        <item>Grandas de Salime</item>
+        <item>Ibias</item>
+        <item>Illano</item>
+        <item>Illas</item>
+        <item>Langreo</item>
+        <item>Laviana</item>
+        <item>Lena</item>
+        <item>Llanera</item>
+        <item>Llanes</item>
+        <item>Mieres</item>
+        <item>Morcín</item>
+        <item>Muros de Nalón</item>
+        <item>Nava</item>
+        <item>Navia</item>
+        <item>Noreña</item>
+        <item>Onís</item>
+        <item>Oviedo</item>
+        <item>Parres</item>
+        <item>Peñamellera Alta</item>
+        <item>Peñamellera Baja</item>
+        <item>Pesoz</item>
+        <item>Piloña</item>
+        <item>Ponga</item>
+        <item>Pravia</item>
+        <item>Proaza</item>
+        <item>Quirós</item>
+        <item>Regueras, Las</item>
+        <item>Ribadedeva</item>
+        <item>Ribadesella</item>
+        <item>Ribera de Arriba</item>
+        <item>Riosa</item>
+        <item>Salas</item>
+        <item>San Martín de Oscos</item>
+        <item>San Martín del Rey Aurelio</item>
+        <item>San Tirso de Abres</item>
+        <item>Santa Eulalia de Oscos</item>
+        <item>Santo Adriano</item>
+        <item>Sariego</item>
+        <item>Siero</item>
+        <item>Sobrescobio</item>
+        <item>Somiedo</item>
+        <item>Soto del Barco</item>
+        <item>Tapia de Casariego</item>
+        <item>Taramundi</item>
+        <item>Teverga</item>
+        <item>Tineo</item>
+        <item>Valdés</item>
+        <item>Vegadeo</item>
+        <item>Villanueva de Oscos</item>
+        <item>Villaviciosa</item>
+        <item>Villayón</item>
+        <item>Yernes y Tameza</item>
+    </string-array>
+    <string-array name="localidades_islasBaleares">
+        <item>Alaior</item>
+        <item>Alaró</item>
+        <item>Alcúdia</item>
+        <item>Algaida</item>
+        <item>Andratx</item>
+        <item>Ariany</item>
+        <item>Artà</item>
+        <item>Banyalbufar</item>
+        <item>Binissalem</item>
+        <item>Búger</item>
+        <item>Bunyola</item>
+        <item>Calvià</item>
+        <item>Campanet</item>
+        <item>Campos</item>
+        <item>Capdepera</item>
+        <item>Castell, Es</item>
+        <item>Ciutadella de Menorca</item>
+        <item>Consell</item>
+        <item>Costitx</item>
+        <item>Deyá</item>
+        <item>Eivissa</item>
+        <item>Escorca</item>
+        <item>Esporles</item>
+        <item>Estellencs</item>
+        <item>Felanitx</item>
+        <item>Ferreries</item>
+        <item>Formentera</item>
+        <item>Fornalutx</item>
+        <item>Inca</item>
+        <item>Lloret de Vistalegre</item>
+        <item>Lloseta</item>
+        <item>Llubí</item>
+        <item>Llucmajor</item>
+        <item>Manacor</item>
+        <item>Mancor de la Vall</item>
+        <item>Maó</item>
+        <item>Maria de la Salut</item>
+        <item>Marratxí</item>
+        <item>Mercadal, Es</item>
+        <item>Migjorn Gran, Es</item>
+        <item>Montuïri</item>
+        <item>Muro</item>
+        <item>Palma</item>
+        <item>Petra</item>
+        <item>Pobla, Sa</item>
+        <item>Pollença</item>
+        <item>Porreres</item>
+        <item>Puigpunyent</item>
+        <item>Salines, Ses</item>
+        <item>Sant Antoni de Portmany</item>
+        <item>Sant Joan</item>
+        <item>Sant Joan de Labritja</item>
+        <item>Sant Josep de sa Talaia</item>
+        <item>Sant Llorenç des Cardassar</item>
+        <item>Sant Lluís</item>
+        <item>Santa Eugènia</item>
+        <item>Santa Eulalia del Río</item>
+        <item>Santa Margalida</item>
+        <item>Santa María del Camí</item>
+        <item>Santanyí</item>
+        <item>Selva</item>
+        <item>Sencelles</item>
+        <item>Sineu</item>
+        <item>Sóller</item>
+        <item>Son Servera</item>
+        <item>Valldemossa</item>
+        <item>Vilafranca de Bonany</item>
+    </string-array>
+    <string-array name="localidades_barcelona">
+        <item>Abrera</item>
+        <item>Aguilar de Segarra</item>
+        <item>Aiguafreda</item>
+        <item>Alella</item>
+        <item>Alpens</item>
+        <item>Ametlla del Vallès, L\'</item>
+        <item>Arenys de Mar</item>
+        <item>Arenys de Munt</item>
+        <item>Argençola</item>
+        <item>Argentona</item>
+        <item>Artés</item>
+        <item>Avià</item>
+        <item>Avinyó</item>
+        <item>Avinyonet del Penedès</item>
+        <item>Badalona</item>
+        <item>Badia del Vallès</item>
+        <item>Bagà</item>
+        <item>Balenyà</item>
+        <item>Balsareny</item>
+        <item>Barberà del Vallès</item>
+        <item>Barcelona</item>
+        <item>Begues</item>
+        <item>Bellprat</item>
+        <item>Berga</item>
+        <item>Bigues i Riells</item>
+        <item>Borredà</item>
+        <item>Bruc, El</item>
+        <item>Brull, El</item>
+        <item>Cabanyes, Les</item>
+        <item>Cabrera d\'Anoia</item>
+        <item>Cabrera de Mar</item>
+        <item>Cabrils</item>
+        <item>Calaf</item>
+        <item>Calders</item>
+        <item>Caldes d\'Estrac</item>
+        <item>Caldes de Montbui</item>
+        <item>Calella</item>
+        <item>Calldetenes</item>
+        <item>Callús</item>
+        <item>Calonge de Segarra</item>
+        <item>Campins</item>
+        <item>Canet de Mar</item>
+        <item>Canovelles</item>
+        <item>Cànoves i Samalús</item>
+        <item>Canyelles</item>
+        <item>Capellades</item>
+        <item>Capolat</item>
+        <item>Cardedeu</item>
+        <item>Cardona</item>
+        <item>Carme</item>
+        <item>Casserres</item>
+        <item>Castell de l\'Areny</item>
+        <item>Castellar de n\'Hug</item>
+        <item>Castellar del Riu</item>
+        <item>Castellar del Vallès</item>
+        <item>Castellbell i el Vilar</item>
+        <item>Castellbisbal</item>
+        <item>Castellcir</item>
+        <item>Castelldefels</item>
+        <item>Castellet i la Gornal</item>
+        <item>Castellfollit de Riubregós</item>
+        <item>Castellfollit del Boix</item>
+        <item>Castellgalí</item>
+        <item>Castellnou de Bages</item>
+        <item>Castellolí</item>
+        <item>Castellterçol</item>
+        <item>Castellví de la Marca</item>
+        <item>Castellví de Rosanes</item>
+        <item>Centelles</item>
+        <item>Cercs</item>
+        <item>Cerdanyola del Vallès</item>
+        <item>Cervelló</item>
+        <item>Collbató</item>
+        <item>Collsuspina</item>
+        <item>Copons</item>
+        <item>Corbera de Llobregat</item>
+        <item>Cornellà de Llobregat</item>
+        <item>Cubelles</item>
+        <item>Dosrius</item>
+        <item>Esparreguera</item>
+        <item>Esplugues de Llobregat</item>
+        <item>Espunyola, L\'</item>
+        <item>Estany, L\'</item>
+        <item>Figaró-Montmany</item>
+        <item>Fígols</item>
+        <item>Fogars de la Selva</item>
+        <item>Fogars de Montclús</item>
+        <item>Folgueroles</item>
+        <item>Fonollosa</item>
+        <item>Font-rubí</item>
+        <item>Franqueses del Vallès, Les</item>
+        <item>Gaià</item>
+        <item>Gallifa</item>
+        <item>Garriga, La</item>
+        <item>Gavà</item>
+        <item>Gelida</item>
+        <item>Gironella</item>
+        <item>Gisclareny</item>
+        <item>Granada, La</item>
+        <item>Granera</item>
+        <item>Granollers</item>
+        <item>Gualba</item>
+        <item>Guardiola de Berguedà</item>
+        <item>Gurb</item>
+        <item>Hospitalet de Llobregat, L\'</item>
+        <item>Hostalets de Pierola, Els</item>
+        <item>Igualada</item>
+        <item>Jorba</item>
+        <item>Llacuna, La</item>
+        <item>Llagosta, La</item>
+        <item>Lliçà d\'Amunt</item>
+        <item>Lliçà de Vall</item>
+        <item>Llinars del Vallès</item>
+        <item>Lluçà</item>
+        <item>Malgrat de Mar</item>
+        <item>Malla</item>
+        <item>Manlleu</item>
+        <item>Manresa</item>
+        <item>Marganell</item>
+        <item>Martorell</item>
+        <item>Martorelles</item>
+        <item>Masies de Roda, Les</item>
+        <item>Masies de Voltregà, Les</item>
+        <item>Masnou, El</item>
+        <item>Masquefa</item>
+        <item>Matadepera</item>
+        <item>Mataró</item>
+        <item>Mediona</item>
+        <item>Moià</item>
+        <item>Molins de Rei</item>
+        <item>Mollet del Vallès</item>
+        <item>Monistrol de Calders</item>
+        <item>Monistrol de Montserrat</item>
+        <item>Montcada i Reixac</item>
+        <item>Montclar</item>
+        <item>Montesquiu</item>
+        <item>Montgat</item>
+        <item>Montmajor</item>
+        <item>Montmaneu</item>
+        <item>Montmeló</item>
+        <item>Montornès del Vallès</item>
+        <item>Montseny</item>
+        <item>Muntanyola</item>
+        <item>Mura</item>
+        <item>Navarcles</item>
+        <item>Navàs</item>
+        <item>Nou de Berguedà, La</item>
+        <item>Òdena</item>
+        <item>Olèrdola</item>
+        <item>Olesa de Bonesvalls</item>
+        <item>Olesa de Montserrat</item>
+        <item>Olivella</item>
+        <item>Olost</item>
+        <item>Olvan</item>
+        <item>Orís</item>
+        <item>Oristà</item>
+        <item>Orpí</item>
+        <item>Òrrius</item>
+        <item>Pacs del Penedès</item>
+        <item>Palafolls</item>
+        <item>Palau-solità i Plegamans</item>
+        <item>Pallejà</item>
+        <item>Palma de Cervelló, La</item>
+        <item>Papiol, El</item>
+        <item>Parets del Vallès</item>
+        <item>Perafita</item>
+        <item>Piera</item>
+        <item>Pineda de Mar</item>
+        <item>Pla del Penedès, El</item>
+        <item>Pobla de Claramunt, La</item>
+        <item>Pobla de Lillet, La</item>
+        <item>Polinyà</item>
+        <item>Pont de Vilomara i Rocafort, El</item>
+        <item>Pontons</item>
+        <item>Prat de Llobregat, El</item>
+        <item>Prats de Lluçanès</item>
+        <item>Prats de Rei, Els</item>
+        <item>Premià de Dalt</item>
+        <item>Premià de Mar</item>
+        <item>Puig-reig</item>
+        <item>Puigdàlber</item>
+        <item>Pujalt</item>
+        <item>Quar, La</item>
+        <item>Rajadell</item>
+        <item>Rellinars</item>
+        <item>Ripollet</item>
+        <item>Roca del Vallès, La</item>
+        <item>Roda de Ter</item>
+        <item>Rubí</item>
+        <item>Rubió</item>
+        <item>Rupit i Pruit</item>
+        <item>Sabadell</item>
+        <item>Sagàs</item>
+        <item>Saldes</item>
+        <item>Sallent</item>
+        <item>Sant Adrià de Besòs</item>
+        <item>Sant Agustí de Lluçanès</item>
+        <item>Sant Andreu de la Barca</item>
+        <item>Sant Andreu de Llavaneres</item>
+        <item>Sant Antoni de Vilamajor</item>
+        <item>Sant Bartomeu del Grau</item>
+        <item>Sant Boi de Llobregat</item>
+        <item>Sant Boi de Lluçanès</item>
+        <item>Sant Cebrià de Vallalta</item>
+        <item>Sant Celoni</item>
+        <item>Sant Climent de Llobregat</item>
+        <item>Sant Cugat del Vallès</item>
+        <item>Sant Cugat Sesgarrigues</item>
+        <item>Sant Esteve de Palautordera</item>
+        <item>Sant Esteve Sesrovires</item>
+        <item>Sant Feliu de Codines</item>
+        <item>Sant Feliu de Llobregat</item>
+        <item>Sant Feliu Sasserra</item>
+        <item>Sant Fost de Campsentelles</item>
+        <item>Sant Fruitós de Bages</item>
+        <item>Sant Hipòlit de Voltregà</item>
+        <item>Sant Iscle de Vallalta</item>
+        <item>Sant Jaume de Frontanyà</item>
+        <item>Sant Joan de Vilatorrada</item>
+        <item>Sant Joan Despí</item>
+        <item>Sant Julià de Cerdanyola</item>
+        <item>Sant Julià de Vilatorta</item>
+        <item>Sant Just Desvern</item>
+        <item>Sant Llorenç d\'Hortons</item>
+        <item>Sant Llorenç Savall</item>
+        <item>Sant Martí d\'Albars</item>
+        <item>Sant Martí de Centelles</item>
+        <item>Sant Martí de Tous</item>
+        <item>Sant Martí Sarroca</item>
+        <item>Sant Martí Sesgueioles</item>
+        <item>Sant Mateu de Bages</item>
+        <item>Sant Pere de Ribes</item>
+        <item>Sant Pere de Riudebitlles</item>
+        <item>Sant Pere de Torelló</item>
+        <item>Sant Pere de Vilamajor</item>
+        <item>Sant Pere Sallavinera</item>
+        <item>Sant Pol de Mar</item>
+        <item>Sant Quintí de Mediona</item>
+        <item>Sant Quirze de Besora</item>
+        <item>Sant Quirze del Vallès</item>
+        <item>Sant Quirze Safaja</item>
+        <item>Sant Sadurní d\'Anoia</item>
+        <item>Sant Sadurní d\'Osormort</item>
+        <item>Sant Salvador de Guardiola</item>
+        <item>Sant Vicenç de Castellet</item>
+        <item>Sant Vicenç de Montalt</item>
+        <item>Sant Vicenç de Torelló</item>
+        <item>Sant Vicenç dels Horts</item>
+        <item>Santa Cecília de Voltregà</item>
+        <item>Santa Coloma de Cervelló</item>
+        <item>Santa Coloma de Gramenet</item>
+        <item>Santa Eugènia de Berga</item>
+        <item>Santa Eulàlia de Riuprimer</item>
+        <item>Santa Eulàlia de Ronçana</item>
+        <item>Santa Fe del Penedès</item>
+        <item>Santa Margarida de Montbui</item>
+        <item>Santa Margarida i els Monjos</item>
+        <item>Santa Maria d\'Oló</item>
+        <item>Santa Maria de Besora</item>
+        <item>Santa Maria de Corcó</item>
+        <item>Santa Maria de Martorelles</item>
+        <item>Santa Maria de Merlès</item>
+        <item>Santa Maria de Miralles</item>
+        <item>Santa Maria de Palautordera</item>
+        <item>Santa Perpètua de Mogoda</item>
+        <item>Santa Susanna</item>
+        <item>Santpedor</item>
+        <item>Sentmenat</item>
+        <item>Seva</item>
+        <item>Sitges</item>
+        <item>Sobremunt</item>
+        <item>Sora</item>
+        <item>Subirats</item>
+        <item>Súria</item>
+        <item>Tagamanent</item>
+        <item>Talamanca</item>
+        <item>Taradell</item>
+        <item>Tavèrnoles</item>
+        <item>Tavertet</item>
+        <item>Teià</item>
+        <item>Terrassa</item>
+        <item>Tiana</item>
+        <item>Tona</item>
+        <item>Tordera</item>
+        <item>Torelló</item>
+        <item>Torre de Claramunt, La</item>
+        <item>Torrelavit</item>
+        <item>Torrelles de Foix</item>
+        <item>Torrelles de Llobregat</item>
+        <item>Ullastrell</item>
+        <item>Vacarisses</item>
+        <item>Vallbona d\'Anoia</item>
+        <item>Vallcebre</item>
+        <item>Vallgorguina</item>
+        <item>Vallirana</item>
+        <item>Vallromanes</item>
+        <item>Veciana</item>
+        <item>Vic</item>
+        <item>Vilada</item>
+        <item>Viladecans</item>
+        <item>Viladecavalls</item>
+        <item>Vilafranca del Penedès</item>
+        <item>Vilalba Sasserra</item>
+        <item>Vilanova de Sau</item>
+        <item>Vilanova del Camí</item>
+        <item>Vilanova del Vallès</item>
+        <item>Vilanova i la Geltrú</item>
+        <item>Vilassar de Dalt</item>
+        <item>Vilassar de Mar</item>
+        <item>Vilobí del Penedès</item>
+        <item>Viver i Serrateix</item>
+    </string-array>
+</resources>
