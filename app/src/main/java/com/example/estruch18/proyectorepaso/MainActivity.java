@@ -3,6 +3,7 @@ package com.example.estruch18.proyectorepaso;
 import android.app.Activity;
 import android.app.Notification;
 import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
@@ -108,8 +109,24 @@ public class MainActivity extends Activity {
                 notificacion.setContentText("Desea reiniciar el contador de pulsaciones?");
                 notificacion.setSmallIcon(R.drawable.advertencia);
                 notificacion.setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.advertencia));
-                notificacion.addAction(android.R.drawable.ic_dialog_alert, "Continuar", null);
-                notificacion.addAction(android.R.drawable.ic_input_delete, "Reiniciar", null);
+                //Notificación expandida
+                Notification.InboxStyle is = new Notification.InboxStyle();
+                is.addLine("Primera linea expandida");
+                is.addLine("Segunda linea expandida");
+                is.addLine("Tercera linea expandida");
+                is.addLine("Quarta linea expandida");
+                is.addLine("Quinta linea expandida");
+                notificacion.setStyle(is);
+
+                //Acciones de los botones implementados en la notificación expandida
+                Intent intentReiniciar = new Intent(getApplicationContext(), MainActivity.class);
+                Intent intentContinuar = new Intent(getApplicationContext(), MainActivity.class);
+
+                PendingIntent reiniciar = PendingIntent.getActivity(getApplicationContext(),0,intentReiniciar, PendingIntent.FLAG_UPDATE_CURRENT);
+                PendingIntent continuar = PendingIntent.getActivity(getApplicationContext(),0,intentContinuar, PendingIntent.FLAG_CANCEL_CURRENT);
+
+                notificacion.addAction(R.mipmap.ic_launcher, "Continuar", continuar);
+                notificacion.addAction(R.mipmap.ic_launcher, "Reiniciar", reiniciar);
 
                 NotificationManager nm = (NotificationManager)getSystemService(NOTIFICATION_SERVICE);
                 nm.notify(1,notificacion.build());
