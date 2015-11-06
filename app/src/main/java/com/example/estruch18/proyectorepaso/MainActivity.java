@@ -111,22 +111,23 @@ public class MainActivity extends Activity {
                 notificacion.setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.advertencia));
                 //Notificación expandida
                 Notification.InboxStyle is = new Notification.InboxStyle();
-                is.addLine("Primera linea expandida");
-                is.addLine("Segunda linea expandida");
-                is.addLine("Tercera linea expandida");
-                is.addLine("Quarta linea expandida");
-                is.addLine("Quinta linea expandida");
+                //Añadimos lineas a la notificación expandida
+                is.addLine("Desea reiniciar el contador de pulsaciones?");
+                is.addLine("Nombre: "+data.getExtras().getString("nombre"));
+                is.addLine("Provincia: "+data.getExtras().getString("provincia"));
+                is.addLine("Pueblo: "+data.getExtras().getString("pueblo"));
                 notificacion.setStyle(is);
 
                 //Acciones de los botones implementados en la notificación expandida
                 Intent intentReiniciar = new Intent(getApplicationContext(), MainActivity.class);
-                Intent intentContinuar = new Intent(getApplicationContext(), MainActivity.class);
+                Intent intentContinuar = new Intent();
 
                 PendingIntent reiniciar = PendingIntent.getActivity(getApplicationContext(),0,intentReiniciar, PendingIntent.FLAG_UPDATE_CURRENT);
-                PendingIntent continuar = PendingIntent.getActivity(getApplicationContext(),0,intentContinuar, PendingIntent.FLAG_CANCEL_CURRENT);
+                PendingIntent continuar = PendingIntent.getActivity(getApplicationContext(),0,intentContinuar, PendingIntent.FLAG_UPDATE_CURRENT);
 
-                notificacion.addAction(R.mipmap.ic_launcher, "Continuar", continuar);
+                //Botones de la notificación expandida (Reiniciar, Continuar)
                 notificacion.addAction(R.mipmap.ic_launcher, "Reiniciar", reiniciar);
+                notificacion.addAction(R.mipmap.ic_launcher, "Continuar", continuar);
 
                 NotificationManager nm = (NotificationManager)getSystemService(NOTIFICATION_SERVICE);
                 nm.notify(1,notificacion.build());

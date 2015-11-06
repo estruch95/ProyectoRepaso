@@ -2,6 +2,7 @@ package com.example.estruch18.proyectorepaso;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -35,8 +36,7 @@ public class Activity2 extends Activity {
         spPueblos = (Spinner)findViewById(R.id.sp_Pueblos);
 
         //Ejecución de métodos
-        cargarSpProvincias();
-        getProvincia();
+        cargarDatosSpinner();
     }
 
     @Override
@@ -62,58 +62,28 @@ public class Activity2 extends Activity {
     }
 
     //Método encargado de cargar los datos (Provincias) a partir de los recursos e implementarlos mediante un adaptador en el spinner
-    public void cargarSpProvincias(){
+    public void cargarDatosSpinner(){
         ArrayAdapter adaptador = ArrayAdapter.createFromResource(this, R.array.provincias, android.R.layout.simple_spinner_item);
         adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spProvincias.setAdapter(adaptador);
-    }
 
-    //Método Listener del spinner de provincias, este llama a "cargarSpPueblos" en la selección de cualquiera de sus items
-    public void getProvincia(){
         spProvincias.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                cargarSpPueblos();
+                //Creación de un objeto TypedArray
+                TypedArray pueblos = getResources().obtainTypedArray(R.array.array_provincia_a_localidades);
+                String localidades[] = getResources().getStringArray(pueblos.getResourceId(position, 0));
+
+                ArrayAdapter adaptador1 = new ArrayAdapter(Activity2.this, android.R.layout.simple_spinner_item, localidades);
+                adaptador1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                spPueblos.setAdapter(adaptador1);
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-                //En caso de no seleccionar, informar de ello por pantalla
-                Toast.makeText(getApplicationContext(), "No has seleccionado ninguna provincia", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "No se ha seleccionado ninguna provincia", Toast.LENGTH_SHORT).show();
             }
         });
-    }
-
-    //Método cuyo objetivo és, según la selección del spinner spProvincias, cargar unos datos u otros
-    public void cargarSpPueblos(){
-        ArrayAdapter adaptador = null;
-        switch (spProvincias.getSelectedItem().toString()){
-            case "Albacete":
-                adaptador = ArrayAdapter.createFromResource(this, R.array.localidades_albacete, android.R.layout.simple_spinner_item);
-                break;
-
-            case "Barcelona":
-                adaptador = ArrayAdapter.createFromResource(this, R.array.localidades_barcelona, android.R.layout.simple_spinner_item);
-                break;
-
-            case "Alicante":
-                adaptador = ArrayAdapter.createFromResource(this, R.array.localidades_alicante, android.R.layout.simple_spinner_item);
-
-                break;
-
-            case "Almeria":
-                adaptador = ArrayAdapter.createFromResource(this, R.array.localidades_almeria, android.R.layout.simple_spinner_item);
-                break;
-
-            case "Asturias":
-                adaptador = ArrayAdapter.createFromResource(this, R.array.localidades_asturias, android.R.layout.simple_spinner_item);
-                break;
-
-            case "Islas Baleares":
-                adaptador = ArrayAdapter.createFromResource(this, R.array.localidades_islasBaleares, android.R.layout.simple_spinner_item);
-                break;
-        }
-        spPueblos.setAdapter(adaptador);
     }
 
     //Método Listener del botón Continuar
